@@ -1,0 +1,7 @@
+{
+  "name": "Yeti Flooring",
+  "description": "Yeti Flooring is San Jose's trusted flooring installation experts. We specialize in professional installation of hardwood, carpet, tile, luxury vinyl, and laminate flooring. Serving San Jose, CA and surrounding Bay Area communities with expert craftsmanship and reliable service.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
