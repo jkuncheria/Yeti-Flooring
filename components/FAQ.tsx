@@ -111,10 +111,6 @@ const FAQ: React.FC = () => {
       category: 'Warranty & Guarantees',
       questions: [
         {
-          question: 'What is the Adore Your Floor Guarantee?',
-          answer: 'Our Adore Your Floor Guarantee means if you don\'t love your new 5-Star floor, we\'ll replace it for free. This is our commitment to your complete satisfaction with your flooring installation.'
-        },
-        {
           question: 'What does the warranty cover?',
           answer: 'Warranty coverage varies by product and manufacturer. Most warranties cover manufacturing defects and premature wear. Installation warranties cover workmanship issues. We\'ll explain all warranty details before your installation project begins.'
         },

@@ -135,6 +135,12 @@ const Footer: React.FC = () => {
             <a href="#" className="hover:underline">Accessibility</a>
           </div>
         </div>
+        
+        <div className="text-center mt-4 text-xs text-gray-500">
+          <p>
+            Built by <a href="https://renolens.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900 hover:underline">RenoLens</a>
+          </p>
+        </div>
 
       </div>
     </footer>

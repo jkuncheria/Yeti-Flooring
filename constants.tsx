@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavItem, Category, Feature } from './types';
-import { BadgeCheck, Users, Wrench, Truck } from 'lucide-react';
+import { BadgeCheck, Users, Wrench } from 'lucide-react';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Hardwood', href: '/hardwood' },
@@ -36,10 +36,5 @@ export const DIFFERENCE_FEATURES: Feature[] = [
     title: 'Professional Installation',
     description: 'Rely on our certified installers to get the job done right, the first time.',
     icon: <Wrench className="w-8 h-8 text-blue-900" />,
-  },
-  {
-    title: 'The Adore Your Floor Guarantee',
-    description: 'If you don’t love your new 5-Star floor, we’ll replace it for free.',
-    icon: <Truck className="w-8 h-8 text-blue-900" />,
   },
 ];

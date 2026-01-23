@@ -24,7 +24,7 @@ const Header: React.FC = () => {
       <div className="bg-white py-4 px-4 md:px-8 lg:px-16 shadow-sm">
         <div className="flex flex-col md:grid md:grid-cols-3 items-center gap-4 relative">
           
-          {/* Mobile Menu Toggle (Left side on mobile) */}
+          {/* Mobile Menu Toggle (Left side - Contact/Phone icons) */}
           <div className="w-full md:w-auto flex justify-start items-center md:hidden md:col-span-1">
             <div className="flex items-center gap-2">
               <Link 
@@ -40,13 +40,17 @@ const Header: React.FC = () => {
               >
                 <Phone className="w-5 h-5" />
               </a>
-              <button 
-                className="p-2 text-gray-600"
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-              >
-                {isMenuOpen ? <X /> : <Menu />}
-              </button>
             </div>
+          </div>
+
+          {/* Mobile Hamburger Menu (Right side on mobile) */}
+          <div className="w-full md:w-auto flex justify-end items-center md:hidden absolute right-0">
+            <button 
+              className="p-2 text-gray-600"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              {isMenuOpen ? <X /> : <Menu />}
+            </button>
           </div>
 
           {/* Logo - Centered */}
