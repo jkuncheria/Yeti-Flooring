@@ -23,7 +23,7 @@ export const CATEGORIES: Category[] = [
 
 export const DIFFERENCE_FEATURES: Feature[] = [
   {
-    title: 'Expert Adviors',
+    title: 'Expert Advisors',
     description: 'Our local experts utilize their expansive knowledge to guide you to the perfect floor.',
     icon: <Users className="w-8 h-8 text-blue-900" />,
   },

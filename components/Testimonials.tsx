@@ -14,7 +14,7 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     name: 'Sarah Johnson',
-    location: 'Austin, TX',
+    location: 'San Jose, CA',
     rating: 5,
     text: 'The entire process was seamless from start to finish. The team helped us choose the perfect hardwood for our home, and the installation was flawless. We couldn\'t be happier with our new floors!',
     product: 'Hardwood Flooring'
@@ -22,7 +22,7 @@ const testimonials: Testimonial[] = [
   {
     id: 2,
     name: 'Michael Chen',
-    location: 'Seattle, WA',
+    location: 'San Jose, CA',
     rating: 5,
     text: 'Outstanding customer service and incredible selection. The visualizer tool helped us see exactly how the luxury vinyl would look in our kitchen before we committed. Highly recommend!',
     product: 'Luxury Vinyl'
@@ -30,7 +30,7 @@ const testimonials: Testimonial[] = [
   {
     id: 3,
     name: 'Emily Rodriguez',
-    location: 'Miami, FL',
+    location: 'San Jose, CA',
     rating: 5,
     text: 'We needed flooring that could handle our three kids and two dogs. The team recommended waterproof luxury vinyl, and it\'s been perfect. Easy to clean and still looks brand new after a year!',
     product: 'Waterproof Flooring'
@@ -38,7 +38,7 @@ const testimonials: Testimonial[] = [
   {
     id: 4,
     name: 'David Thompson',
-    location: 'Denver, CO',
+    location: 'San Jose, CA',
     rating: 5,
     text: 'Professional installation team and beautiful results. The carpet we chose feels amazing underfoot and the color matches perfectly with our decor. Worth every penny!',
     product: 'Carpet'
@@ -46,7 +46,7 @@ const testimonials: Testimonial[] = [
   {
     id: 5,
     name: 'Jennifer Williams',
-    location: 'Portland, OR',
+    location: 'San Jose, CA',
     rating: 5,
     text: 'The team made the entire process easy and stress-free. The staff was knowledgeable and patient with all our questions. From consultation to installation, everything was handled professionally. Great experience!',
     product: 'Tile Flooring'

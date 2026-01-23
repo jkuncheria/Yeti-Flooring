@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
               <p><a href="mailto:flooringnow911@gmail.com" className="hover:text-blue-900">flooringnow911@gmail.com</a></p>
             </div>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/indianabestflooring/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-900 transition-colors"><Facebook className="w-5 h-5"/></a>
+              <a href="#" className="text-gray-400 hover:text-blue-900 transition-colors"><Facebook className="w-5 h-5"/></a>
               <a href="#" className="text-gray-400 hover:text-pink-600 transition-colors"><Instagram className="w-5 h-5"/></a>
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors"><Twitter className="w-5 h-5"/></a>
               <a href="#" className="text-gray-400 hover:text-red-600 transition-colors"><Youtube className="w-5 h-5"/></a>
@@ -128,7 +128,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-          <p>&copy; 2025 Yeti Flooring. All Rights Reserved.</p>
+          <p>&copy; 2026 Yeti Flooring. All Rights Reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="hover:underline">Privacy Policy</a>
             <a href="#" className="hover:underline">Terms of Use</a>
