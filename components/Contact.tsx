@@ -68,7 +68,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
     try {
       const payload = {
         ...formData,
-        clientId: 'RL-BML2L6TL'
+        clientId: 'RL-UP2WUTXQ'
         // Add additional fields here if the form expands (budget, projectType, images, etc.)
       };
 
@@ -141,13 +141,13 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                   </div>
                 </a>
 
-                <a href="mailto:info@yetifloors.com" className="group flex items-start p-4 rounded-xl hover:bg-blue-50 transition-all duration-300 border border-transparent hover:border-blue-100">
+                <a href="mailto:flooringnow911@gmail.com" className="group flex items-start p-4 rounded-xl hover:bg-blue-50 transition-all duration-300 border border-transparent hover:border-blue-100">
                   <div className="bg-gradient-to-br from-blue-900 to-blue-800 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md flex-shrink-0">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <h4 className="font-bold text-gray-900 mb-1 group-hover:text-blue-900 transition-colors">Email</h4>
-                    <p className="text-gray-700 font-semibold break-words text-sm sm:text-base">info@yetifloors.com</p>
+                    <p className="text-gray-700 font-semibold break-words text-sm sm:text-base">flooringnow911@gmail.com</p>
                     <p className="text-sm text-gray-500 mt-1">We respond within 24 hours</p>
                   </div>
                 </a>

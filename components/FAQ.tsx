@@ -70,15 +70,11 @@ const FAQ: React.FC = () => {
       ]
     },
     {
-      category: 'Pricing & Financing',
+      category: 'Pricing',
       questions: [
         {
-          question: 'What financing options do you offer?',
-          answer: 'We offer flexible financing options including up to 18 months of interest-free financing on qualifying projects. No down payment required on most plans. Apply online or contact us for instant approval.'
-        },
-        {
           question: 'Do you price match?',
-          answer: 'We work hard to offer competitive pricing on all our products. If you find a lower price on an identical item from a local competitor, bring it to our attention and we\'ll do our best to match it.'
+          answer: 'We work hard to offer competitive pricing on all our installation services. If you find a lower price on an identical service from a local competitor, bring it to our attention and we\'ll do our best to match it.'
         },
         {
           question: 'Are there any hidden fees?',

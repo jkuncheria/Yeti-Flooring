@@ -12,7 +12,7 @@ const AboutHome: React.FC = () => {
           <div className="order-2 lg:order-1 flex justify-center">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-xl w-full">
               <img 
-                src="/flooringteamexample.webp" 
+                src="/yetiabout.png" 
                 alt="Yeti Flooring Company - San Jose, California" 
                 className="w-full h-auto object-cover"
               />

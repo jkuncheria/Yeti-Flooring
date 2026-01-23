@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             </Link>
             <div className="text-sm text-gray-600 mb-4 space-y-1">
               <p><a href="tel:+14082396550" className="hover:text-blue-900">(408) 239-6550</a></p>
-              <p><a href="mailto:info@yetifloors.com" className="hover:text-blue-900">info@yetifloors.com</a></p>
+              <p><a href="mailto:flooringnow911@gmail.com" className="hover:text-blue-900">flooringnow911@gmail.com</a></p>
             </div>
             <div className="flex space-x-4">
               <a href="https://www.facebook.com/indianabestflooring/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-900 transition-colors"><Facebook className="w-5 h-5"/></a>
@@ -73,11 +73,6 @@ const Footer: React.FC = () => {
               <li>
                 <Link to="/about" onClick={scrollToTop} className="hover:text-blue-900">
                   About Us
-                </Link>
-              </li>
-              <li>
-                <Link to="/financing" onClick={scrollToTop} className="hover:text-blue-900">
-                  Financing
                 </Link>
               </li>
               <li>

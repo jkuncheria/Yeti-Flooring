@@ -48,7 +48,7 @@ const testimonials: Testimonial[] = [
     name: 'Jennifer Williams',
     location: 'Portland, OR',
     rating: 5,
-    text: 'The financing options made it easy to get the floors we wanted without breaking the bank. The staff was knowledgeable and patient with all our questions. Great experience!',
+    text: 'The team made the entire process easy and stress-free. The staff was knowledgeable and patient with all our questions. From consultation to installation, everything was handled professionally. Great experience!',
     product: 'Tile Flooring'
   },
   {

@@ -48,10 +48,10 @@ const Hero: React.FC = () => {
             VIEW OUR SERVICES
           </button>
           <Link 
-            to="/financing"
+            to="/contact"
             className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition transform hover:scale-105 text-center"
           >
-            VIEW FINANCING
+            CONTACT US
           </Link>
         </div>
       </div>

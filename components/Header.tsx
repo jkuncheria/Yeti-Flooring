@@ -15,8 +15,8 @@ const Header: React.FC = () => {
       {/* Top Bar */}
       <div className="bg-gray-100 text-xs py-2 px-4 flex justify-center items-center border-b border-gray-200">
         <div className="text-center text-blue-900 font-semibold">
-          <span className="mr-2">🏠 WE OFFER FLEXIBLE FINANCING OPTIONS!</span>
-          <Link to="/financing" onClick={scrollToTop} className="underline hover:text-blue-700">Learn More</Link>
+          <span className="mr-2">🏠 FREE ESTIMATES & PROFESSIONAL INSTALLATION!</span>
+          <Link to="/contact" onClick={scrollToTop} className="underline hover:text-blue-700">Get Quote</Link>
         </div>
       </div>
 
@@ -55,7 +55,7 @@ const Header: React.FC = () => {
               <img 
                 src="/yetilogo.jpg" 
                 alt="Yeti Flooring" 
-                className="h-16 md:h-24 lg:h-28 w-auto object-contain"
+                className="h-12 md:h-24 lg:h-28 w-auto object-contain"
               />
             </Link>
           </div>

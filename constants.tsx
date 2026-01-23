@@ -9,7 +9,6 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Luxury Vinyl', href: '/luxury-vinyl' },
   { label: 'Laminate', href: '/laminate' },
   { label: 'About Us', href: '/about' },
-  { label: 'Financing', href: '/financing' },
   { label: 'FAQ', href: '/faq' },
   { label: 'Contact', href: '/contact' },
 ];

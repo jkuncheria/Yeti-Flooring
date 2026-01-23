@@ -6,7 +6,6 @@ import AIChat from './components/AIChat';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import About from './pages/About';
-import Financing from './pages/Financing';
 import Contact from './pages/Contact';
 import FAQ from './pages/FAQ';
 import Hardwood from './pages/Hardwood';
@@ -26,7 +25,6 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/financing" element={<Financing />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/hardwood" element={<Hardwood />} />
