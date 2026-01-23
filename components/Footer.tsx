@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
           <div>
             <Link to="/" onClick={scrollToTop} className="inline-block mb-4">
               <img 
-                src="/yetilogo.jpg" 
+                src="/yetilogo.png" 
                 alt="Yeti Flooring" 
                 className="h-12 md:h-16 w-auto object-contain"
               />

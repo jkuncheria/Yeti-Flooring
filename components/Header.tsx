@@ -53,7 +53,7 @@ const Header: React.FC = () => {
           <div className="absolute left-1/2 transform -translate-x-1/2 md:relative md:left-0 md:transform-none md:col-start-2 md:col-end-3 md:flex md:justify-center">
             <Link to="/" onClick={scrollToTop} className="flex items-center justify-center group">
               <img 
-                src="/yetilogo.jpg" 
+                src="/yetilogo.png" 
                 alt="Yeti Flooring" 
                 className="h-12 md:h-24 lg:h-28 w-auto object-contain"
               />
