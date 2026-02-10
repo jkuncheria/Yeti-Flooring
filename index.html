@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yeti Flooring | Hardwood, Carpet, Luxury Vinyl, Tile & More | San Jose, CA</title>
     
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/yetilogo-optimized.webp" as="image" type="image/webp" />
+    <link rel="preload" href="/hero-1-optimized.webp" as="image" type="image/webp" />
+    
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/yetilogo.png" />
     <link rel="shortcut icon" type="image/png" href="/yetilogo.png" />
@@ -69,17 +73,56 @@
         }
       ],
       "priceRange": "$$",
-      "areaServed": {
-        "@type": "City",
-        "name": "San Jose"
-      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "San Jose",
+          "sameAs": "https://en.wikipedia.org/wiki/San_Jose,_California"
+        },
+        {
+          "@type": "City",
+          "name": "Santa Clara",
+          "sameAs": "https://en.wikipedia.org/wiki/Santa_Clara,_California"
+        },
+        {
+          "@type": "City",
+          "name": "Sunnyvale",
+          "sameAs": "https://en.wikipedia.org/wiki/Sunnyvale,_California"
+        },
+        {
+          "@type": "City",
+          "name": "Campbell",
+          "sameAs": "https://en.wikipedia.org/wiki/Campbell,_California"
+        },
+        {
+          "@type": "City",
+          "name": "Cupertino",
+          "sameAs": "https://en.wikipedia.org/wiki/Cupertino,_California"
+        },
+        {
+          "@type": "City",
+          "name": "Milpitas",
+          "sameAs": "https://en.wikipedia.org/wiki/Milpitas,_California"
+        },
+        {
+          "@type": "City",
+          "name": "Los Gatos",
+          "sameAs": "https://en.wikipedia.org/wiki/Los_Gatos,_California"
+        },
+        {
+          "@type": "City",
+          "name": "Saratoga",
+          "sameAs": "https://en.wikipedia.org/wiki/Saratoga,_California"
+        }
+      ],
       "serviceArea": {
         "@type": "GeoCircle",
         "geoMidpoint": {
           "@type": "GeoCoordinates",
           "latitude": "37.3382",
           "longitude": "-121.8863"
-        }
+        },
+        "geoRadius": "30 mi"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -123,6 +166,46 @@
               "@type": "Service",
               "name": "Laminate Flooring Installation",
               "description": "Professional laminate flooring installation in San Jose, CA"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Commercial Flooring Installation",
+              "description": "Professional commercial flooring installation for offices, retail stores, restaurants, and healthcare facilities in San Jose, CA"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Office Flooring Installation",
+              "description": "Commercial flooring solutions for office buildings and corporate spaces in San Jose and the Bay Area"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Retail Store Flooring",
+              "description": "Durable, high-traffic flooring for retail stores and shopping centers in San Jose, CA"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Restaurant Flooring Installation",
+              "description": "Slip-resistant commercial flooring for restaurants and food service establishments in San Jose, CA"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Healthcare Facility Flooring",
+              "description": "Antimicrobial and hygienic flooring for hospitals, clinics, and medical offices in San Jose, CA"
             }
           }
         ]

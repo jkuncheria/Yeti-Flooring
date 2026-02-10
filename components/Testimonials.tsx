@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef, useMemo } from 'react';
 import { Star, Quote } from 'lucide-react';
 
 interface Testimonial {
@@ -65,6 +65,57 @@ const Testimonials: React.FC = () => {
   const [showFallback, setShowFallback] = useState(false);
   const widgetRef = useRef<HTMLDivElement>(null);
   const checkIntervalRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Review Schema structured data
+  useEffect(() => {
+    const reviewSchema = {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Yeti Flooring",
+      "image": "https://yetiflooring.com/yetilogo.png",
+      "telephone": "+14082396550",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "San Jose",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "500",
+        "reviewCount": "500"
+      },
+      "review": testimonials.map(t => ({
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": t.name
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": t.rating.toString(),
+          "bestRating": "5"
+        },
+        "reviewBody": t.text
+      }))
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'review-schema';
+    script.text = JSON.stringify(reviewSchema);
+    document.head.appendChild(script);
+
+    return () => {
+      const existingScript = document.getElementById('review-schema');
+      if (existingScript) {
+        existingScript.remove();
+      }
+    };
+  }, []);
 
   useEffect(() => {
     // Check if widget loads successfully

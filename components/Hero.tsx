@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0 pointer-events-none">
         {/* Fallback image while video loads or if it fails */}
         <div
-          className="absolute inset-0 bg-[url('/hero-1.png')] bg-cover bg-center"
+          className="absolute inset-0 bg-[url('/hero-1-optimized.webp')] bg-cover bg-center"
           aria-hidden="true"
         />
         <video
@@ -24,7 +24,8 @@ const Hero: React.FC = () => {
           muted
           loop
           playsInline
-          poster="/hero-1.png"
+          preload="auto"
+          poster="/hero-1-optimized.webp"
         >
           <source src="/hero-video.mp4" type="video/mp4" />
         </video>

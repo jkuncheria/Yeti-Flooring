@@ -1,9 +1,96 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronDown, ChevronUp, HelpCircle } from 'lucide-react';
 
 const FAQ: React.FC = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  // FAQ Schema structured data
+  useEffect(() => {
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How quickly will you respond to my inquiry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We typically respond to all inquiries within 24 hours. For urgent matters or immediate assistance, please call us directly at (408) 239-6550. Our team is available Monday through Saturday to help with your flooring needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer free estimates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! We offer free, no-obligation estimates for all flooring projects. Our experts will visit your home, measure your space, and provide a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What areas do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We serve San Jose, CA and surrounding Bay Area communities including Santa Clara, Sunnyvale, Campbell, Cupertino, and Milpitas. Contact us to confirm if we service your specific area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of flooring do you carry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We carry a complete selection of flooring including hardwood, carpet, luxury vinyl, tile, and laminate. Each category offers numerous styles, colors, and price points to fit any budget and design preference."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide installation services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! We have certified, professional installers who are trained and experienced in all types of flooring installation. Our installation team ensures proper preparation, precise installation, and quality finishing for lasting results."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does installation take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Installation time varies depending on the type of flooring and size of the project. Most residential installations take 1-3 days. We'll provide a timeline during your consultation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is your installation warranty?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We stand behind our installation work with a comprehensive warranty. Specific warranty terms vary by product type and will be detailed in your installation agreement. Our certified installers ensure quality workmanship."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I care for my new floors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Care instructions vary by flooring type. We provide detailed care and maintenance guides with every installation. Generally, regular sweeping/vacuuming and occasional mopping with appropriate cleaners will keep your floors looking beautiful."
+          }
+        }
+      ]
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'faq-schema';
+    script.text = JSON.stringify(faqSchema);
+    document.head.appendChild(script);
+
+    return () => {
+      const existingScript = document.getElementById('faq-schema');
+      if (existingScript) {
+        existingScript.remove();
+      }
+    };
+  }, []);
 
   const faqs = [
     {

@@ -14,6 +14,12 @@ import Carpet from './pages/Carpet';
 import Tile from './pages/Tile';
 import LuxuryVinyl from './pages/LuxuryVinyl';
 import Laminate from './pages/Laminate';
+import Commercial from './pages/Commercial';
+import CommercialHotels from './pages/CommercialHotels';
+import CommercialRetail from './pages/CommercialRetail';
+import CommercialGyms from './pages/CommercialGyms';
+import CommercialTheaters from './pages/CommercialTheaters';
+import CommercialHealthcare from './pages/CommercialHealthcare';
 
 const App: React.FC = () => {
   return (
@@ -34,6 +40,12 @@ const App: React.FC = () => {
             <Route path="/tile" element={<Tile />} />
             <Route path="/luxury-vinyl" element={<LuxuryVinyl />} />
             <Route path="/laminate" element={<Laminate />} />
+            <Route path="/commercial" element={<Commercial />} />
+            <Route path="/commercial/hotels" element={<CommercialHotels />} />
+            <Route path="/commercial/retail" element={<CommercialRetail />} />
+            <Route path="/commercial/gyms" element={<CommercialGyms />} />
+            <Route path="/commercial/theaters" element={<CommercialTheaters />} />
+            <Route path="/commercial/healthcare" element={<CommercialHealthcare />} />
           </Routes>
       </main>
 

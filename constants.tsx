@@ -8,6 +8,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Tile', href: '/tile' },
   { label: 'Luxury Vinyl', href: '/luxury-vinyl' },
   { label: 'Laminate', href: '/laminate' },
+  { label: 'Commercial', href: '/commercial' },
   { label: 'About Us', href: '/about' },
   { label: 'FAQ', href: '/faq' },
   { label: 'Contact', href: '/contact' },
