@@ -267,7 +267,7 @@ const Testimonials: React.FC = () => {
         {/* Elfsight Widget Container */}
         <div 
           ref={widgetRef}
-          className="elfsight-app-14317772-3578-4703-8ebf-ff106a701ca9" 
+          className="elfsight-app-cdd46342-11a5-49ff-962b-a91a6696f632" 
           data-elfsight-app-lazy
           style={{ minHeight: showFallback ? '0' : '400px' }}
         ></div>

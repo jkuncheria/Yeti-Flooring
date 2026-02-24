@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -27,10 +27,7 @@ const Footer: React.FC = () => {
               <p><a href="mailto:flooringnow911@gmail.com" className="hover:text-blue-900">flooringnow911@gmail.com</a></p>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-900 transition-colors"><Facebook className="w-5 h-5"/></a>
-              <a href="#" className="text-gray-400 hover:text-pink-600 transition-colors"><Instagram className="w-5 h-5"/></a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors"><Twitter className="w-5 h-5"/></a>
-              <a href="#" className="text-gray-400 hover:text-red-600 transition-colors"><Youtube className="w-5 h-5"/></a>
+              <a href="https://www.instagram.com/yetiflooring/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-600 transition-colors"><Instagram className="w-5 h-5"/></a>
             </div>
           </div>
 

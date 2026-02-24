@@ -18,13 +18,13 @@ const Home: React.FC = () => {
         keywords="flooring installation San Jose, hardwood flooring San Jose, carpet installation, tile flooring, luxury vinyl flooring, laminate flooring, flooring contractor San Jose, Santa Clara flooring, Sunnyvale flooring, Campbell flooring, Cupertino flooring"
       />
       <Hero />
+      <Contact simplified={true} />
       <Categories />
       <AboutHome />
       <Visualizer />
       <Difference />
       {/* <Inspiration /> */}
       <Testimonials />
-      <Contact simplified={true} />
     </>
   );
 };
